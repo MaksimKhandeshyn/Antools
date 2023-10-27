@@ -13,139 +13,176 @@
     <title>Antools</title>
   </head>
   <body>
-    <header>
-      <p>antools.</p>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Categories</li>
-          <li>My Collections</li>
-          <li>Blog</li>
+    <header class="header">
+      <p class="logo">antools.</p>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">Categories</li>
+          <li class="nav-item">My Collections</li>
+          <li class="nav-item">Blog</li>
         </ul>
-        <ul>
-          <li><button type="button">Login</button></li>
-          <li><button type="button">Sing Up</button></li>
+        <ul class="nav-contacts">
+          <li class="nav-contacts-item">
+            <button type="button" class="login-btn">Login</button>
+          </li>
+          <li class="nav-contacts-item">
+            <button type="button" class="sign-up-btn">Sing Up</button>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Awesome tools Designer & Developer<span>.</span></h1>
-      <p>
-        Antool is a web collection of information on paid or free Design and
-        Development tools
-      </p>
-      <form>
-        <input type="text" placeholder="find more than 430+ tools..." />
-        <button type="submit">Search</button>
-      </form>
-      <ul>
-        <li><a href="https://uk-ua.facebook.com">Facebook</a></li>
-        <li><a href="https://www.instagram.com">Instagram</a></li>
-        <li><a href="https://twitter.com/home?lang=ru">X</a></li>
-      </ul>
+      <sectiom class="hero">
+        <h1 class="hero-title">
+          Awesome tools Designer & Developer<span class="point">.</span>
+        </h1>
+        <p class="hero-info">
+          Antool is a web collection of information on paid or free Design and
+          Development tools
+        </p>
+        <form class="hero-form">
+          <input
+            type="text"
+            placeholder="find more than 430+ tools..."
+            class="hero-search-field"
+          />
+          <button type="submit" class="search-btn">Search</button>
+        </form>
+        <ul class="hero-media-list">
+          <li class="hero-media-item">
+            <a href="https://uk-ua.facebook.com" class="facebook">Facebook</a>
+          </li>
+          <li class="hero-media-item">
+            <a href="https://www.instagram.com" class="instagram">Instagram</a>
+          </li>
+          <li class="hero-media-item">
+            <a href="https://twitter.com/home?lang=ru" class="twitter">X</a>
+          </li>
+        </ul>
+      </sectiom>
+
       <!--Section with tools-->
-      <section>
-        <h2>Most Popular Tools</h2>
-        <p>
+      <section class="tools">
+        <h2 class="tools-header">Most Popular Tools</h2>
+        <p class="tools-info">
           Tools for the best Designers and Developersmost popularly used in the
           world
         </p>
-        <ul>
-          <li>
-            <h3>Figma</h3>
-            <p>Free</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
+        <ul class="tools-list">
+          <li class="tools-item">
+            <h3 class="tools-title">Figma</h3>
+            <p class="tools-price">Free</p>
+            <p class="tools-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="heart"></button>
+            <button type="button" class="folder"></button>
+            <a href="#" class="link">Visit</a>
+          </li>
+          <li class="tools-item">
+            <h3 class="tools-title">Sketch</h3>
+            <p class="tools-price">Trial & Paid</p>
+            <p class="tools-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="heart"></button>
+            <button type="button" class="folder"></button>
+            <a href="#" class="link">Visit</a>
+          </li>
+          <li class="tools-item">
+            <h3 class="tools-title">Visual Studio Code</h3>
+            <p class="tools-price">Free</p>
+            <p class="tools-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="heart"></button>
+            <button type="button" class="folder"></button>
+            <a href="#" class="link">Visit</a>
+          </li>
+          <li class="tools-item">
+            <h3 class="tools-title">Notion</h3>
+            <p class="tools-price">Free & Paid</p>
+            <p class="tools-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="heart"></button>
+            <button type="button" class="folder"></button>
+            <a href="#" class="link">Visit</a>
+          </li>
+          <li class="tools-item">
+            <h3 class="tools-title">Slack</h3>
+            <p class="tools-price">Free & Paid</p>
+            <p class="tools-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="heart"></button>
+            <button type="button" class="folder"></button>
             <a href="#">Visit</a>
           </li>
-          <li>
-            <h3>Sketch</h3>
-            <p>Trial & Paid</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
-            <a href="#">Visit</a>
-          </li>
-          <li>
-            <h3>Visual Studio Code</h3>
-            <p>Free</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
-            <a href="#">Visit</a>
-          </li>
-          <li>
-            <h3>Notion</h3>
-            <p>Free & Paid</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
-            <a href="#">Visit</a>
-          </li>
-          <li>
-            <h3>Slack</h3>
-            <p>Free & Paid</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
-            <a href="#">Visit</a>
-          </li>
-          <li>
-            <h3>Invision</h3>
-            <p>Free & Paid</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
-            <a href="#">Visit</a>
+          <li class="tools-item">
+            <h3 class="tools-title">Invision</h3>
+            <p class="tools-price">Free & Paid</p>
+            <p class="tools-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="heart"></button>
+            <button type="button" class="folder"></button>
+            <a href="#" class="link">Visit</a>
           </li>
         </ul>
-        <button type="button">Load more</button>
+        <button type="button" class="load-btn">Load more</button>
       </section>
       <!--Section with brand-->
-      <section>
-        <h2>Trusted more than 150+ brand</h2>
-        <ul>
-          <li><!--Should be img of brand--></li>
-          <li><!--Should be img of brand--></li>
-          <li><!--Should be img of brand--></li>
-          <li><!--Should be img of brand--></li>
+      <section class="brands">
+        <h2 class="brands-label">Trusted more than 150+ brand</h2>
+        <ul class="brands-list">
+          <li class="brands-item"><!--Should be img of brand--></li>
+          <li class="brands-item"><!--Should be img of brand--></li>
+          <li class="brands-item"><!--Should be img of brand--></li>
+          <li class="brands-item"><!--Should be img of brand--></li>
         </ul>
       </section>
       <!--Section ,,Newcome Tools,,-->
-      <section>
-        <h2>Newcome Tools</h2>
-        <p>
+      <section class="newcome-tools">
+        <h2 class="tools-header">Newcome Tools</h2>
+        <p class="tools-info">
           Wow! see the latest update of the most recommended tools from reliable
           designers and developers
         </p>
-        <button type="button">Explore more</button>
-        <ul>
-          <li>
-            <h3>Zeplin</h3>
-            <p>Free & Paid</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
-            <a href="#">Visit</a>
+        <button type="button" class="explore-btn">Explore more</button>
+        <ul class="tools-list">
+          <li class="tools-item">
+            <h3 class="tools-title">Zeplin</h3>
+            <p class="tools-price">Free & Paid</p>
+            <p class="tools-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="heart"></button>
+            <button type="button" class="folder"></button>
+            <a href="#" class="link">Visit</a>
           </li>
-          <li>
-            <h3>PHPStorm</h3>
-            <p>Free</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
-            <a href="#">Visit</a>
+          <li class="tools-item">
+            <h3 class="tools-title">PHPStorm</h3>
+            <p class="tools-price">Free</p>
+            <p class="tools-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="heart"></button>
+            <button type="button" class="folder"></button>
+            <a href="#" class="link">Visit</a>
           </li>
-          <li>
-            <h3>ToolBox</h3>
-            <p>Free</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
-            <a href="#">Visit</a>
+          <li class="tools-item">
+            <h3 class="tools-title">ToolBox</h3>
+            <p class="tools-title">Free</p>
+            <p class="tools-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button type="button" class="heart"></button>
+            <button type="button" class="folder"></button>
+            <a href="#" class="link">Visit</a>
           </li>
-          <li>
+          <li class="">
             <h3>Procreate</h3>
             <p>Paid</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -190,24 +227,29 @@
       </section>
       <ul>
         <li>
-            <h2>Contact Us</h2>
-            <address>
-                <p><a href="tel:+621987463">+621 98 74 63</a></p>
-                <!--Тут зробив посилання просто на карту бо такої адреси не існує-->
-                <p><a href="https://www.google.com/maps/dir//49.837230,+24.035886?hl=uk-UK">M.Building, №10 A</a></p>
-                <p><a href="mailto:antools@gmail.com">antools@gmail.com</a></p>
-            </address>
+          <h2>Contact Us</h2>
+          <address>
+            <p><a href="tel:+621987463">+621 98 74 63</a></p>
+            <!--Тут зробив посилання просто на карту бо такої адреси не існує-->
+            <p>
+              <a
+                href="https://www.google.com/maps/dir//49.837230,+24.035886?hl=uk-UK"
+                >M.Building, №10 A</a
+              >
+            </p>
+            <p><a href="mailto:antools@gmail.com">antools@gmail.com</a></p>
+          </address>
         </li>
         <li>
-            <h2>Categories</h2>
-            <p><a href="#">Deign</a></p>
-            <p><a href="#">Developer</a></p>
+          <h2>Categories</h2>
+          <p><a href="#">Deign</a></p>
+          <p><a href="#">Developer</a></p>
         </li>
         <li>
-            <h2>Company Info</h2>
-            <p><a href="#">About us</a></p>
-            <p><a href="#">Our Partners</a></p>
-            <p><a href="#">Blog</a></p>
+          <h2>Company Info</h2>
+          <p><a href="#">About us</a></p>
+          <p><a href="#">Our Partners</a></p>
+          <p><a href="#">Blog</a></p>
         </li>
       </ul>
     </footer>
