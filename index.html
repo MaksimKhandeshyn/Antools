@@ -14,42 +14,51 @@
   </head>
   <body>
     <header class="header">
-      <p class="logo">antools.</p>
-      <nav class="nav">
-        <ul class="nav-list list">
-          <li class="nav-item"><a href="#" class="nav-link link">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link">Categories</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link">My Collections</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link">Blog</a></li>
-        </ul>
-        <ul class="nav-contacts list">
-          <li class="nav-contacts-item">
-            <button type="button" class="login-btn">Login</button>
-          </li>
-          <li class="nav-contacts-item">
-            <button type="button" class="sign-up-btn">Sing Up</button>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <p class="logo">antools.</p>
+        <nav class="nav">
+          <ul class="nav-list list">
+            <li class="nav-item"><a href="#" class="nav-link link">Home</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link link">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link link">My Collections</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link link">Blog</a></li>
+          </ul>
+          <ul class="nav-contacts list">
+            <li class="nav-contacts-item">
+              <button type="button" class="login-btn">Login</button>
+            </li>
+            <li class="nav-contacts-item">
+              <button type="button" class="sign-up-btn">Sing Up</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <sectiom class="hero">
-        <h1 class="hero-title">
-          Awesome tools Designer & Developer<span class="point">.</span>
-        </h1>
-        <p class="hero-info">
-          Antool is a web collection of information on paid or free Design and
-          Development tools
-        </p>
-        <form class="hero-form">
-          <input
-            type="text"
-            placeholder="find more than 430+ tools..."
-            class="hero-search-field"
-          />
-          <button type="submit" class="search-btn">Search</button>
-        </form>
-        <ul class="hero-media-list list">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">
+            Awesome tools Designer & Developer<span class="point">.</span>
+          </h1>
+          <p class="hero-info">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </p>
+          <form class="hero-form">
+            <input
+              type="text"
+              placeholder="find more than 430+ tools..."
+              class="hero-search-field"
+            />
+            <button type="submit" class="search-btn">Search</button>
+          </form>
+          <!--Должны быть иконки с соц сетями-->
+        </div>
+        <!-- <ul class="hero-media-list list">
           <li class="hero-media-item">
             <a href="https://uk-ua.facebook.com" class="facebook">Facebook</a>
           </li>
@@ -59,200 +68,242 @@
           <li class="hero-media-item">
             <a href="https://twitter.com/home?lang=ru" class="twitter">X</a>
           </li>
-        </ul>
-      </sectiom>
+        </ul> -->
+      </section>
 
       <!--Section with tools-->
       <section class="tools">
-        <h2 class="tools-header">Most Popular Tools</h2>
-        <p class="tools-info">
-          Tools for the best Designers and Developersmost popularly used in the
-          world
-        </p>
-        <ul class="tools-list list">
-          <li class="tools-item">
-            <h3 class="tools-title">Figma</h3>
-            <p class="tools-price">Free</p>
-            <p class="tools-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button type="button" class="heart"></button>
-            <button type="button" class="folder"></button>
-            <a href="#" class="tools-link link">Visit</a>
-          </li>
-          <li class="tools-item">
-            <h3 class="tools-title">Sketch</h3>
-            <p class="tools-price">Trial & Paid</p>
-            <p class="tools-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button type="button" class="heart"></button>
-            <button type="button" class="folder"></button>
-            <a href="#" class="tools-link link">Visit</a>
-          </li>
-          <li class="tools-item">
-            <h3 class="tools-title">Visual Studio Code</h3>
-            <p class="tools-price">Free</p>
-            <p class="tools-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button type="button" class="heart"></button>
-            <button type="button" class="folder"></button>
-            <a href="#" class="tools-link link">Visit</a>
-          </li>
-          <li class="tools-item">
-            <h3 class="tools-title">Notion</h3>
-            <p class="tools-price">Free & Paid</p>
-            <p class="tools-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button type="button" class="heart"></button>
-            <button type="button" class="folder"></button>
-            <a href="#" class="tools-link link">Visit</a>
-          </li>
-          <li class="tools-item">
-            <h3 class="tools-title">Slack</h3>
-            <p class="tools-price">Free & Paid</p>
-            <p class="tools-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button type="button" class="heart"></button>
-            <button type="button" class="folder"></button>
-            <a href="#" class="tools-link link">Visit</a>
-          </li>
-          <li class="tools-item">
-            <h3 class="tools-title">Invision</h3>
-            <p class="tools-price">Free & Paid</p>
-            <p class="tools-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button type="button" class="heart"></button>
-            <button type="button" class="folder"></button>
-            <a href="#" class="tools-link  link">Visit</a>
-          </li>
-        </ul>
-        <button type="button" class="load-btn">Load more</button>
+        <div class="container">
+          <h2 class="tools-header">Most Popular Tools</h2>
+          <p class="tools-info">
+            Tools for the best Designers and Developersmost popularly used in
+            the world
+          </p>
+          <ul class="tools-list list">
+            <li class="tools-item">
+              <h3 class="tools-title">Figma</h3>
+              <p class="tools-price">Free</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button" class="heart"></button>
+              <button type="button" class="folder"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+            <li class="tools-item">
+              <h3 class="tools-title">Sketch</h3>
+              <p class="tools-price">Trial & Paid</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button" class="heart"></button>
+              <button type="button" class="folder"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+            <li class="tools-item">
+              <h3 class="tools-title">Visual Studio Code</h3>
+              <p class="tools-price">Free</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button" class="heart"></button>
+              <button type="button" class="folder"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+            <li class="tools-item">
+              <h3 class="tools-title">Notion</h3>
+              <p class="tools-price">Free & Paid</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button" class="heart"></button>
+              <button type="button" class="folder"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+            <li class="tools-item">
+              <h3 class="tools-title">Slack</h3>
+              <p class="tools-price">Free & Paid</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button" class="heart"></button>
+              <button type="button" class="folder"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+            <li class="tools-item">
+              <h3 class="tools-title">Invision</h3>
+              <p class="tools-price">Free & Paid</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button" class="heart"></button>
+              <button type="button" class="folder"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+          </ul>
+          <button type="button" class="load-btn">Load more</button>
+        </div>
       </section>
       <!--Section with brand-->
       <section class="brands">
-        <h2 class="brands-label">Trusted more than 150+ brand</h2>
-        <ul class="brands-list list">
-          <li class="brands-item"><!--Should be img of brand--></li>
-          <li class="brands-item"><!--Should be img of brand--></li>
-          <li class="brands-item"><!--Should be img of brand--></li>
-          <li class="brands-item"><!--Should be img of brand--></li>
-        </ul>
+        <div class="container">
+          <h2 class="brands-label">Trusted more than 150+ brand</h2>
+          <ul class="brands-list list">
+            <li class="brands-item"><!--Should be img of brand--></li>
+            <li class="brands-item"><!--Should be img of brand--></li>
+            <li class="brands-item"><!--Should be img of brand--></li>
+            <li class="brands-item"><!--Should be img of brand--></li>
+          </ul>
+        </div>
       </section>
       <!--Section ,,Newcome Tools,,-->
       <section class="newcome-tools">
-        <h2 class="tools-header">Newcome Tools</h2>
-        <p class="tools-info">
-          Wow! see the latest update of the most recommended tools from reliable
-          designers and developers
-        </p>
-        <button type="button" class="explore-btn">Explore more</button>
-        <ul class="tools-list list">
-          <li class="tools-item">
-            <h3 class="tools-title">Zeplin</h3>
-            <p class="tools-price">Free & Paid</p>
-            <p class="tools-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button type="button" class="heart"></button>
-            <button type="button" class="folder"></button>
-            <a href="#" class="tools-link link">Visit</a>
-          </li>
-          <li class="tools-item">
-            <h3 class="tools-title">PHPStorm</h3>
-            <p class="tools-price">Free</p>
-            <p class="tools-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button type="button" class="heart"></button>
-            <button type="button" class="folder"></button>
-            <a href="#" class="tools-link link">Visit</a>
-          </li>
-          <li class="tools-item">
-            <h3 class="tools-title">ToolBox</h3>
-            <p class="tools-price">Free</p>
-            <p class="tools-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button type="button" class="heart"></button>
-            <button type="button" class="folder"></button>
-            <a href="#" class="tools-link link">Visit</a>
-          </li>
-          <li class="tools-item">
-            <h3 class="tools-title">Procreate</h3>
-            <p class="tools-price">Paid</p>
-            <p class="tools-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button"></button>
-            <button type="button"></button>
-            <a href="#" class="tools-link link">Visit</a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="tools-header">Newcome Tools</h2>
+          <p class="tools-info">
+            Wow! see the latest update of the most recommended tools from
+            reliable designers and developers
+          </p>
+          <button type="button" class="explore-btn">Explore more</button>
+          <ul class="tools-list list">
+            <li class="tools-item">
+              <h3 class="tools-title">Zeplin</h3>
+              <p class="tools-price">Free & Paid</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button" class="heart"></button>
+              <button type="button" class="folder"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+            <li class="tools-item">
+              <h3 class="tools-title">PHPStorm</h3>
+              <p class="tools-price">Free</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button" class="heart"></button>
+              <button type="button" class="folder"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+            <li class="tools-item">
+              <h3 class="tools-title">ToolBox</h3>
+              <p class="tools-price">Free</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button" class="heart"></button>
+              <button type="button" class="folder"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+            <li class="tools-item">
+              <h3 class="tools-title">Procreate</h3>
+              <p class="tools-price">Paid</p>
+              <p class="tools-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <button type="button"></button>
+              <button type="button"></button>
+              <a href="#" class="tools-link link">Visit</a>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="comment">
-        <img src="./images/david-suarez.jpg" alt="david-suarez" class="comment-img"/>
-        <h2 class="name">Ronald Richards</h2>
-        <p class="position">Product Manager</p>
-        <p class="comment-info">
-          Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
-          reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla
-          velit labore occaecat do deserunt Lorem magna officia incididunt
-          consectetur amet. Sunt consectetur veniam minim ex commodo sint non.
-          Occaecat aute officia excepteur non laboris id qui ad.
-        </p>
+        <div class="container">
+          <img
+            src="./images/david-suarez.jpg"
+            alt="david-suarez"
+            class="comment-img"
+          />
+          <h2 class="name">Ronald Richards</h2>
+          <p class="position">Product Manager</p>
+          <p class="comment-info">
+            Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
+            reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla
+            velit labore occaecat do deserunt Lorem magna officia incididunt
+            consectetur amet. Sunt consectetur veniam minim ex commodo sint non.
+            Occaecat aute officia excepteur non laboris id qui ad.
+          </p>
+        </div>
       </section>
       <!--Section ,,Becjme a contributor?-->
       <section class="contributor">
-        <h2 class="contributor-title">Become a contributor?</h2>
-        <p class="contributor-info">
-          Join us and get tips & tricks to become a great Designer and Developer
-        </p>
-        <form class="contributor-form">
-          <input type="email" placeholder="Enter your email..." class="email-field"/>
-          <button type="submit" class="form-btn">Join us</button>
-        </form>
+        <div class="container">
+          <h2 class="contributor-title">Become a contributor?</h2>
+          <p class="contributor-info">
+            Join us and get tips & tricks to become a great Designer and
+            Developer
+          </p>
+          <form class="contributor-form">
+            <input
+              type="email"
+              placeholder="Enter your email..."
+              class="email-field"
+            />
+            <button type="submit" class="form-btn">Join us</button>
+          </form>
+        </div>
       </section>
     </main>
+    <!--Footer-->
     <footer class="footer">
       <section class="footer-info">
-        <p class="logo">antools</p>
-        <h2 class="copyright">Copyright 2021. Antools</h2>
-        <p class="antools-info">
-          Antool is a web collection of information on paid or free Design and
-          Development tools
-        </p>
+        <div class="container">
+          <p class="logo">antools</p>
+          <a href="#" class="copyright link">Copyright 2021. Antools</a>
+          <p class="antools-info">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </p>
+        </div>
       </section>
-      <ul class="contact-list list">
-        <li class="contact-item">
-          <h2 class="contact-title">Contact Us</h2>
-          <address class="address">
-            <p class="address-tel"><a href="tel:+621987463" class="link-tel link">+621 98 74 63</a></p>
-            <!--Тут зробив посилання просто на карту бо такої адреси не існує-->
-            <p class="address-street">
-              <a
-                href="https://www.google.com/maps/dir//49.837230,+24.035886?hl=uk-UK"
-                class="link-street link"
-                >M.Building, №10 A</a
-              >
+      <div class="container">
+        <ul class="contact-list list">
+          <li class="contact-item">
+            <h2 class="contact-title">Contact Us</h2>
+            <address class="address">
+              <p class="address-tel">
+                <a href="tel:+621987463" class="link-tel link">+621 98 74 63</a>
+              </p>
+              <!--Тут зробив посилання просто на карту бо такої адреси не існує-->
+              <p class="address-street">
+                <a
+                  href="https://www.google.com/maps/dir//49.837230,+24.035886?hl=uk-UK"
+                  class="link-street link"
+                  >M.Building, №10 A</a
+                >
+              </p>
+              <p class="address-mail">
+                <a href="mailto:antools@gmail.com" class="mail-link link"
+                  >antools@gmail.com</a
+                >
+              </p>
+            </address>
+          </li>
+          <li class="contact-item">
+            <h2 class="contact-title">Categories</h2>
+            <p class="contact-info">
+              <a href="#" class="contact-link link">Deign</a>
             </p>
-            <p class="address-mail"><a href="mailto:antools@gmail.com" class="mail-link link">antools@gmail.com</a></p>
-          </address>
-        </li>
-        <li class="contact-item">
-          <h2 class="contact-title">Categories</h2>
-          <p class="contact-info"><a href="#" class="contact-link link">Deign</a></p>
-          <p class="contact-info"><a href="#" class="contact-link link">Developer</a></p>
-        </li>
-        <li class="contact-item">
-          <h2 class="contact-title">Company Info</h2>
-          <p class="contact-info"><a href="#" class="contact-link link">About us</a></p>
-          <p class="contact-info"><a href="#" class="contact-link link">Our Partners</a></p>
-          <p class="contact-info"><a href="#" class="contact-link link">Blog</a></p>
-        </li>
-      </ul>
+            <p class="contact-info">
+              <a href="#" class="contact-link link">Developer</a>
+            </p>
+          </li>
+          <li class="contact-item">
+            <h2 class="contact-title">Company Info</h2>
+            <p class="contact-info">
+              <a href="#" class="contact-link link">About us</a>
+            </p>
+            <p class="contact-info">
+              <a href="#" class="contact-link link">Our Partners</a>
+            </p>
+            <p class="contact-info">
+              <a href="#" class="contact-link link">Blog</a>
+            </p>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
