@@ -4,7 +4,13 @@
   --add-color: rgba(255, 165, 55, 0.55);
   --bg-color: #1e252b;
 }
-
+html {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 /*Скидывание*/
 h1,
 h2,
@@ -62,6 +68,10 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+/* .container-position {
+  display: flex;
+  align-items: baseline;
+} */
 
 /*Конец стилизации контейнера*/
 
@@ -69,29 +79,31 @@ body {
 .logo-footer {
   color: rgba(255, 255, 255, 0.9);
   font-size: 22px;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
   padding-top: 28px;
 }
-
+/*Nav position*/
+/* .nav {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+} */
 .nav-link {
   color: var(--main-color);
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 
-.nav-link {
+.nav-contact-link {
   color: rgba(255, 255, 255, 0.78);
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  
 }
-.nav-link:hover{
+.nav-contact-link:hover {
   padding: 12px 28px;
   background: var(--accent-color);
   color: #fff;
@@ -101,20 +113,17 @@ body {
 .hero-title {
   color: rgba(255, 255, 255, 0.9);
   font-size: 50px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 140%;
-  /* 70px */
+  line-height: 140%; /* 70px */
 }
-
+.point {
+  color: var(--accent-color);
+}
 .hero-info {
   padding-top: 30px;
   color: var(--main-color);
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 30px;
-  /* 166.667% */
 }
 
 .hero-form {
@@ -122,10 +131,7 @@ body {
 }
 
 .hero-search-field {
-  color: rgba(255, 255, 255, 0.38);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
   padding: 21px 13px 22px;
 }
@@ -142,7 +148,6 @@ body {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 48px;
-  font-style: normal;
   font-weight: 500;
   line-height: 130%;
   /* 62.4px */
@@ -154,16 +159,13 @@ body {
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  /* 166.667% */
 }
 
 .tools-title {
   color: rgba(255, 255, 255, 0.78);
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
@@ -171,25 +173,17 @@ body {
 .tools-price {
   color: rgba(255, 165, 55, 0.55);
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
 .tools-description {
   color: rgba(255, 255, 255, 0.55);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 30px;
-  /* 187.5% */
   padding-top: 30px;
 }
 
 .tools-btn {
   color: rgba(255, 255, 255, 0.55);
-  font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
   background: var(--bg-color);
@@ -207,7 +201,6 @@ body {
 .load-btn {
   color: var(--accent-color);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   margin-top: 117px;
@@ -220,16 +213,14 @@ body {
 .brands-title {
   padding-top: 55px;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 /*Остановился на Trust more than...*/
 .newcome-tools-header {
+  padding-top: 220px;
   color: rgba(255, 255, 255, 0.9);
   font-size: 48px;
-  font-style: normal;
   font-weight: 500;
   line-height: 130%; /* 62.4px */
 }
@@ -237,7 +228,6 @@ body {
   padding-top: 30px;
   color: rgba(255, 255, 255, 0.55);
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 30px; /* 166.667% */
 }
@@ -247,7 +237,6 @@ body {
   padding: 16px 40px 15px 40px;
   color: #fff;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   background-color: var(--accent-color);
@@ -258,7 +247,6 @@ body {
 .newcome-tools-title {
   color: rgba(255, 255, 255, 0.78);
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
@@ -266,23 +254,18 @@ body {
 .newcome-tools-price {
   color: rgba(255, 165, 55, 0.55);
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
 .newcome-tools-description {
   color: rgba(255, 255, 255, 0.55);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 30px; /* 214.286% */
 }
 
 .name {
   color: rgba(255, 253, 253, 0.78);
   font-size: 26px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.39px;
@@ -291,15 +274,11 @@ body {
 .position {
   color: rgba(255, 253, 253, 0.55);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 .comment-info {
   color: rgba(255, 255, 255, 0.78);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 30px; /* 214.286% */
   letter-spacing: 0.21px;
 }
@@ -309,7 +288,6 @@ body {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 48px;
-  font-style: normal;
   font-weight: 500;
   line-height: 130%; /* 62.4px */
 }
@@ -318,7 +296,6 @@ body {
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 30px; /* 166.667% */
 }
@@ -330,8 +307,6 @@ body {
 
 .form-btn {
   color: #fff;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
   padding: 12px 35px 12px 26px;
@@ -345,8 +320,6 @@ body {
 }
 .copyright {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
@@ -354,24 +327,19 @@ body {
   padding-top: 21px;
   color: rgba(255, 255, 255, 0.55);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 25px; /* 178.571% */
 }
 
 .contact-title {
   color: rgba(255, 255, 255, 0.9);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 
 .contact-link {
   color: rgba(255, 255, 255, 0.55);
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-
