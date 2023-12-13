@@ -11,6 +11,10 @@ html {
 *::after {
   box-sizing: inherit;
 }
+body {
+  font-family: "Poppins";
+  background: var(--bg-color);
+}
 /*Скидывание*/
 h1,
 h2,
@@ -55,10 +59,7 @@ img {
   overflow: hidden;
 }
 
-body {
-  font-family: "Poppins";
-  background: var(--bg-color);
-}
+
 
 /*Конец скидывания*/
 
@@ -68,10 +69,10 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-/* .container-position {
+.container-position {
   display: flex;
   align-items: baseline;
-} */
+}
 
 /*Конец стилизации контейнера*/
 
@@ -84,18 +85,27 @@ body {
   padding-top: 28px;
 }
 /*Nav position*/
-/* .nav {
+.nav {
   display: flex;
 }
 .nav-list {
   display: flex;
-} */
+}
+.nav-item:first-child {
+  margin-left: 257px;
+  margin-right: 45px;
+}
+.nav-item + .nav-item{
+  margin-right: 45px;
+}
 .nav-link {
   color: var(--main-color);
   font-weight: 500;
   line-height: normal;
 }
-
+.nav-contacts {
+  display: flex;
+}
 .nav-contact-link {
   color: rgba(255, 255, 255, 0.78);
   font-size: 16px;
@@ -115,6 +125,8 @@ body {
   font-size: 50px;
   font-weight: 500;
   line-height: 140%; /* 70px */
+  margin-top: 122px;
+  width: 600px;
 }
 .point {
   color: var(--accent-color);
@@ -124,6 +136,7 @@ body {
   color: var(--main-color);
   font-size: 18px;
   line-height: 30px;
+  width: 487px;
 }
 
 .hero-form {
@@ -161,8 +174,22 @@ body {
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
+  width: 427px;
+  margin: 0 auto;
+}
+.tools-list {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;  
 }
 
+.tools-item {
+  margin-top: 110px;
+  flex-basis: calc(100% / 3 - 25px);
+}
+.tools-item:nth-child(2) {
+  margin-top: 90px;
+}
 .tools-title {
   color: rgba(255, 255, 255, 0.78);
   font-size: 24px;
@@ -190,6 +217,7 @@ body {
   border: none;
   border-radius: 8px;
   margin-top: 30px;
+  margin-left: 130px;
   padding: 9px 35px;
 }
 
@@ -197,7 +225,10 @@ body {
   background-color: var(--accent-color);
   color: #fff;
 }
-
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
 .load-btn {
   color: var(--accent-color);
   font-size: 20px;
@@ -208,6 +239,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: var(--bg-color);
   border-radius: 8px;
+  align-items: center;
 }
 
 .brands-title {
@@ -216,7 +248,6 @@ body {
   font-weight: 500;
   line-height: normal;
 }
-/*Остановился на Trust more than...*/
 .newcome-tools-header {
   padding-top: 220px;
   color: rgba(255, 255, 255, 0.9);
@@ -230,8 +261,17 @@ body {
   font-size: 18px;
   font-weight: 500;
   line-height: 30px; /* 166.667% */
+  width: 427px;
 }
-
+/*Эту секцию нужно сделать что бы инструменты были справа*/
+.newcome-tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.newcome-tools-item {
+  flex-basis: calc(100% / 2 - 24px);
+}
 .explore-btn {
   margin-top: 60px;
   padding: 16px 40px 15px 40px;
