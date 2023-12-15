@@ -248,6 +248,10 @@ img {
   font-weight: 500;
   line-height: normal;
 }
+.newcome-content {
+  display: flex;
+}
+
 .newcome-tools-header {
   padding-top: 220px;
   color: rgba(255, 255, 255, 0.9);
@@ -268,6 +272,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-left: 197px;
+  padding-top: 220px;
+  flex-direction: column;
 }
 .newcome-tools-item {
   flex-basis: calc(100% / 2 - 24px);
@@ -283,7 +290,6 @@ img {
   border: none;
   border-radius: 8px;
 }
-
 .newcome-tools-title {
   color: rgba(255, 255, 255, 0.78);
   font-size: 24px;
@@ -301,8 +307,13 @@ img {
   color: rgba(255, 255, 255, 0.55);
   font-size: 14px;
   line-height: 30px; /* 214.286% */
+  width: 245px;
 }
-
+/*Конец секции с tools*/
+.comment-container {
+  display: flex;
+  
+}
 .name {
   color: rgba(255, 253, 253, 0.78);
   font-size: 26px;
@@ -321,6 +332,8 @@ img {
   font-size: 14px;
   line-height: 30px; /* 214.286% */
   letter-spacing: 0.21px;
+  width: 393px;
+  margin-left: 119px;
 }
 
 .contributor-title {
@@ -368,8 +381,15 @@ img {
   color: rgba(255, 255, 255, 0.55);
   font-size: 14px;
   line-height: 25px; /* 178.571% */
+  width: 260px;
 }
-
+.contact-list {
+  display: flex;
+  
+}
+.contact-item {
+  margin-right: 200px;
+}
 .contact-title {
   color: rgba(255, 255, 255, 0.9);
   font-size: 20px;
@@ -378,6 +398,7 @@ img {
 }
 
 .contact-link {
+  margin-top: 10px;
   color: rgba(255, 255, 255, 0.55);
   font-style: normal;
   font-weight: 500;
