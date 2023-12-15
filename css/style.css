@@ -367,6 +367,9 @@ img {
   border: none;
   border-radius: 8px;
 }
+.footer-container {
+  display: flex;
+}
 .logo-footer {
   padding-top: 73px;
   padding-bottom: 27px;
@@ -384,21 +387,26 @@ img {
   width: 260px;
 }
 .contact-list {
-  display: flex;
-  
+  display: flex; 
 }
 .contact-item {
-  margin-right: 200px;
+  margin-top: 70px;
+}
+.contact-item:nth-child(1) {
+  margin-left: 156px;
+}
+.contact-item + .contact-item {
+  margin-left: 164px;
 }
 .contact-title {
   color: rgba(255, 255, 255, 0.9);
   font-size: 20px;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 20px;
 }
 
 .contact-link {
-  margin-top: 10px;
   color: rgba(255, 255, 255, 0.55);
   font-style: normal;
   font-weight: 500;
