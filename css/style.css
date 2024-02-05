@@ -59,8 +59,6 @@ img {
   overflow: hidden;
 }
 
-
-
 /*Конец скидывания*/
 
 /*Контейнер*/
@@ -95,7 +93,7 @@ img {
   margin-left: 257px;
   margin-right: 45px;
 }
-.nav-item + .nav-item{
+.nav-item + .nav-item {
   margin-right: 45px;
 }
 .nav-link {
@@ -112,6 +110,12 @@ img {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.nav-contacts-item:first-child {
+  margin-left: 193px;
+}
+.nav-contacts-item:nth-child(2) {
+  margin-left: 41px;
 }
 .nav-contact-link:hover {
   padding: 12px 28px;
@@ -147,6 +151,11 @@ img {
   font-size: 14px;
   line-height: normal;
   padding: 21px 13px 22px;
+  border-radius: 15px;
+  width: 497px;
+  height: 64px;
+  border: none;
+  background: #283036;
 }
 
 .search-btn {
@@ -180,12 +189,14 @@ img {
 .tools-list {
   display: flex;
   gap: 25px;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 }
 
 .tools-item {
   margin-top: 110px;
   flex-basis: calc(100% / 3 - 25px);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
 }
 .tools-item:nth-child(2) {
   margin-top: 90px;
@@ -207,6 +218,8 @@ img {
   color: rgba(255, 255, 255, 0.55);
   line-height: 30px;
   padding-top: 30px;
+  width: 326px;
+  padding: 30px 33px;
 }
 
 .tools-btn {
@@ -312,7 +325,6 @@ img {
 /*Конец секции с tools*/
 .comment-container {
   display: flex;
-  
 }
 .name {
   color: rgba(255, 253, 253, 0.78);
@@ -387,7 +399,7 @@ img {
   width: 260px;
 }
 .contact-list {
-  display: flex; 
+  display: flex;
 }
 .contact-item {
   margin-top: 70px;
