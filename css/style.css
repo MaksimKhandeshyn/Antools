@@ -198,7 +198,7 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   border-radius: 15px;
 }
-.tools-item:nth-child(2) {
+.tools-item:hover {
   margin-top: 90px;
 }
 .tools-title {
@@ -206,12 +206,15 @@ img {
   font-size: 24px;
   font-weight: 500;
   line-height: normal;
+  margin-left: 30px;
+  margin-top: 33px;
 }
 
 .tools-price {
   color: rgba(255, 165, 55, 0.55);
   font-size: 18px;
   line-height: normal;
+  margin-left: 30px;
 }
 
 .tools-description {
@@ -221,7 +224,9 @@ img {
   width: 326px;
   padding: 30px 33px;
 }
-
+.heart {
+  margin-left: 33px;
+}
 .tools-btn {
   color: rgba(255, 255, 255, 0.55);
   font-weight: 600;
@@ -291,6 +296,10 @@ img {
 }
 .newcome-tools-item {
   flex-basis: calc(100% / 2 - 24px);
+  column-gap: 50px;
+}
+.newcome-tools-item:hover {
+  background: rgba(40, 48, 54, 0.6);
 }
 .explore-btn {
   margin-top: 60px;
@@ -369,7 +378,14 @@ img {
   padding-top: 100px;
   text-align: center;
 }
-
+.email-field {
+  border-radius: 15px;
+  width: 549px;
+  border: none;
+  background: #283036;
+  height: 64px;
+  padding-left: 24px;
+}
 .form-btn {
   color: #fff;
   font-weight: 600;
